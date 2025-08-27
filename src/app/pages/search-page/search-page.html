@@ -1,0 +1,5 @@
+<div class="profile-card__wrapper">
+  @for (p of profiles; track p.id) {
+    <app-profile-card [profile]="p"></app-profile-card>
+  }
+</div>
